@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backmenu3"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Bottom2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:text="Settings"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_compat_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:checked="false"
+        android:layout_marginStart="20sp"
+        android:textColor="@color/Bottom2"
+        android:text="Sound"
+        tools:ignore="MissingConstraints"
+        android:onClick="onClickSound"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_compat_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Bottom2"
+        android:checked="false"
+        android:onClick="onClickTimer"
+        android:text="Timer"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/backMenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="@color/Bottom2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickBack2"
+        android:text="Back"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

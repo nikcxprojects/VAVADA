@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "407713252207",
+    "project_id": "vavada-r2-d2-53f08",
+    "storage_bucket": "vavada-r2-d2-53f08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407713252207:android:5420dff774e6085e109e9a",
+        "android_client_info": {
+          "package_name": "com.tictacx.toe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407713252207-crdavjfka9qt40jos88sogcdsqvra89j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTmbmBijKECslZ0kSL047YyGj-zsUnj5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407713252207-crdavjfka9qt40jos88sogcdsqvra89j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

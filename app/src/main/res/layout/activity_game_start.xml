@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backmenu3"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/gameBot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250sp"
+        android:backgroundTint="@color/Bottom2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickGameBot1"
+        android:text="Bot game"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/gameBot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorWhite"
+        android:textColor="@color/Bottom2"
+        android:onClick="onClickGameBot2"
+        android:text="Online game"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

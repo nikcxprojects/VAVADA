@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">VAVADA</string>
+
+    <string name="splash_name">Загрузка</string>
+
+    <string name="hint_search">Введите поисковой запрос</string>
+
+    <string name="image_chooser">File Chooser</string>
+
+    <string name="No_internet">No internet connection!</string>
+    <string name="No_internet_info">Try doing the following:</string>
+    <string name="No_internet_info_1"> - turn off airplane mode</string>
+    <string name="No_internet_info_2"> - check network signal strength</string>
+    <string name="No_internet_info_3"> - turn on Wi-fi or mobile Internet</string>
+
+    <string name="about1">
+        Tic tac X toe is a logical game between two opponents (or with a bot) on a square field 3 by 3 cells.
+    </string>
+
+    <string name="about2">
+        One of the players plays with crosses, the second - with noes.
+    </string>
+
+    <string name="about3">
+        The traditional Chinese game (Gomoku) uses black and white stones
+    </string>
+<!--                                            -->
+
+
+</resources>

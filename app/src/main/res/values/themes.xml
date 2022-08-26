@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Mybr" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Smoky_black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="background">@color/colorWhite</item>-->
+        <item name="searchViewStyle">@color/Gray_white</item>
+        <item name="textLocale">@color/Smoky_black</item>
+
+        <item name="android:progressBackgroundTint">@color/colorWhite</item>
+        <item name="android:progressTint">@color/Gray_white</item>
+
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="background">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+
+    </style>
+
+</resources>
